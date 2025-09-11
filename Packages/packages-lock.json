@@ -7,6 +7,13 @@
       "dependencies": {},
       "hash": "dcb90c5ff6d81da7a940f1fca198128636abbda3"
     },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "95998ff3f2d8011da67c7b9ba0c75a57af5f6b26"
+    },
     "com.github-glitchenzo.nugetforunity": {
       "version": "4.5.0",
       "depth": 0,
