@@ -8,6 +8,7 @@ using SmartAddresser.Editor.Core.Models.LayoutRules.VersionRules;
 using SmartAddresser.Editor.Core.Models.Shared.AssetGroups.ValidationError;
 using SmartAddresser.Editor.Foundation.TinyRx.ObservableCollection;
 using UnityEditor.AddressableAssets.Settings;
+using UnityEditor.AddressableAssets.Settings.GroupSchemas;
 using UnityEngine;
 
 namespace SmartAddresser.Editor.Core.Models.LayoutRules
@@ -62,18 +63,27 @@ namespace SmartAddresser.Editor.Core.Models.LayoutRules
             if (!isDirty)
                 return false;
 
-            var newList = new List<AddressRule>();
+            var guidToRule = new Dictionary<string, AddressRule>();
             foreach (var addressableGroup in addressableGroups)
             {
                 var addressRule = _addressRules.FirstOrDefault(x => x.AddressableGroup == addressableGroup)
                                   ?? new AddressRule(addressableGroup);
-                newList.Add(addressRule);
+                guidToRule[addressableGroup.Guid]  = addressRule;
             }
-
+            
             _addressRules.Clear();
-            foreach (var addressRule in newList)
-                _addressRules.Add(addressRule);
-
+            var sortSettings = AddressableAssetGroupSortSettings.GetSettings();
+            foreach (var guid in sortSettings.sortOrder) {
+                if (guidToRule.TryGetValue(guid, out var addressRule)) {
+                    guidToRule.Remove(guid);
+                    _addressRules.Add(addressRule);
+                }
+            }
+            // Handle leftover rules not in sortOrder
+            foreach (var kvp in guidToRule) {
+                _addressRules.Add(kvp.Value);
+            }
+            
             return true;
         }
 
