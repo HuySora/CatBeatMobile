@@ -7,6 +7,15 @@
       "dependencies": {},
       "hash": "aaffa04ac0599a839edc6c45f9099460f9d950e8"
     },
+    "com.annulusgames.navstack": {
+      "version": "https://github.com/AnnulusGames/NavStack.git?path=src/NavStack/Assets/NavStack",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.0.0"
+      },
+      "hash": "b772e92569a233be1558ddba92152ad2b735577c"
+    },
     "com.cysharp.csprojmodifier": {
       "version": "https://github.com/Cysharp/CsprojModifier.git?path=src/CsprojModifier/Assets/CsprojModifier",
       "depth": 0,
