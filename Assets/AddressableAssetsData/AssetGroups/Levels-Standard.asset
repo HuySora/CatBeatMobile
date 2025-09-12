@@ -20,6 +20,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fc42a15c3671984da5bbd12db09ac87
+    m_Address: Levels/Standard/Level_Gameplay.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f78f1a6bdda710641824474792ebbb92
     m_Address: Levels/Standard/Standard.unity
     m_ReadOnly: 0
