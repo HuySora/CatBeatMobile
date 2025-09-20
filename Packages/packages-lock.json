@@ -58,6 +58,13 @@
       "dependencies": {},
       "hash": "0034a5d4ab27fac4ae8eea52b7c57a8d47c8a585"
     },
+    "com.needle.console": {
+      "version": "2.5.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
     "com.peturdarri.generic-event-bus": {
       "version": "https://github.com/PeturDarri/GenericEventBus.git",
       "depth": 0,

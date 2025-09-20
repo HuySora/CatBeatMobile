@@ -8,6 +8,7 @@
     "com.domybest.mybox": "https://github.com/Deadcows/MyBox.git",
     "com.github-glitchenzo.nugetforunity": "4.5.0",
     "com.mackysoft.navigathena": "https://github.com/mackysoft/Navigathena.git?path=Assets/MackySoft/MackySoft.Navigathena",
+    "com.needle.console": "2.5.3",
     "com.peturdarri.generic-event-bus": "https://github.com/PeturDarri/GenericEventBus.git",
     "com.unity.addressables": "2.6.0",
     "com.unity.ai.navigation": "2.0.9",
@@ -63,7 +64,8 @@
       "name": "package.openupm.com",
       "url": "https://package.openupm.com",
       "scopes": [
-        "com.github-glitchenzo.nugetforunity"
+        "com.github-glitchenzo.nugetforunity",
+        "com.needle.console"
       ]
     }
   ]
