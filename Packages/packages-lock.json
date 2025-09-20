@@ -322,6 +322,13 @@
       "dependencies": {},
       "hash": "e5d10d3e5961848f93be43c2911344750b509a88"
     },
+    "me.olivr.x10d": {
+      "version": "https://github.com/oliverbooth/X10D.git#upm",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "91aa633fe2c3caa1917e38bd1f42eae18daf9614"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
