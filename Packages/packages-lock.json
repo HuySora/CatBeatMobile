@@ -241,6 +241,13 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "jillejr.newtonsoft.json-for-unity.converters": {
+      "version": "https://github.com/applejag/Newtonsoft.Json-for-Unity.Converters.git?path=Packages/Newtonsoft.Json-for-Unity.Converters",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5aa91cb936f6dceb9d357b88bf51597447c04cc8"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
