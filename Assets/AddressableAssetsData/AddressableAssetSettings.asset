@@ -59,6 +59,7 @@ MonoBehaviour:
   m_BuildAddressablesWithPlayerBuild: 0
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
+  - {fileID: 11400000, guid: 740c581e775e0bc4caa67caf00bb2102, type: 2}
   - {fileID: 11400000, guid: 3d7acfd46f3b03142a166b35b7900842, type: 2}
   m_BuildSettings:
     m_LogResourceManagerExceptions: 1
@@ -127,6 +128,7 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - Locale
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 3e0c765551c86444da00a60ee510d287, type: 2}
