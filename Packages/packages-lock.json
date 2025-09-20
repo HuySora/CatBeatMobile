@@ -35,6 +35,13 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.peturdarri.generic-event-bus": {
+      "version": "https://github.com/PeturDarri/GenericEventBus.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8246d96808db5a6a7f7171d2bab6d6fe93d7e7ce"
+    },
     "com.unity.addressables": {
       "version": "2.6.0",
       "depth": 0,
