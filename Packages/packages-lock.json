@@ -51,6 +51,13 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.mackysoft.navigathena": {
+      "version": "https://github.com/mackysoft/Navigathena.git?path=Assets/MackySoft/MackySoft.Navigathena",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0034a5d4ab27fac4ae8eea52b7c57a8d47c8a585"
+    },
     "com.peturdarri.generic-event-bus": {
       "version": "https://github.com/PeturDarri/GenericEventBus.git",
       "depth": 0,

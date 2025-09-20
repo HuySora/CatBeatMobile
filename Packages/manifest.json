@@ -7,6 +7,7 @@
     "com.cysharp.zstring": "https://github.com/Cysharp/ZString.git?path=src/ZString.Unity/Assets/Scripts/ZString",
     "com.domybest.mybox": "https://github.com/Deadcows/MyBox.git",
     "com.github-glitchenzo.nugetforunity": "4.5.0",
+    "com.mackysoft.navigathena": "https://github.com/mackysoft/Navigathena.git?path=Assets/MackySoft/MackySoft.Navigathena",
     "com.peturdarri.generic-event-bus": "https://github.com/PeturDarri/GenericEventBus.git",
     "com.unity.addressables": "2.6.0",
     "com.unity.ai.navigation": "2.0.9",
