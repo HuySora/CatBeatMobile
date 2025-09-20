@@ -35,6 +35,15 @@
       "dependencies": {},
       "hash": "6c62443ed6a7022de54bda2b83878a49232596d1"
     },
+    "com.domybest.mybox": {
+      "version": "https://github.com/Deadcows/MyBox.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "31c62332c95454ca2722e5bd36674ea7172249e4"
+    },
     "com.github-glitchenzo.nugetforunity": {
       "version": "4.5.0",
       "depth": 0,
