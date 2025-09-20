@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a332b860a24be4a3465ca5f9e85f9f, type: 3}
+  m_Name: S_Core
+  m_EditorClassIdentifier: Assembly-CSharp::VTBeat.Stage.Core.CoreStage
+  AssetRef:
+    m_AssetGUID: 1ca5eaf98bfbe914c8ef0ec61664d1a6
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  <EmptyStageRef>k__BackingField:
+    m_AssetGUID: 85228776d8461184bbab3dded9bf7b49
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  <LoadingViewRef>k__BackingField:
+    m_AssetGUID: 3c8e9607d82874a4094320b537cbefdb
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
+  <EntryStageRef>k__BackingField:
+    m_AssetGUID: 9b7e576b296b6994d91149715e8267c0
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 1
